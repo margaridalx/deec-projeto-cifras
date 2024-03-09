@@ -27,3 +27,9 @@ char cifrar(char *pos, int offset) {
   int new_index = (index + offset) % 67;
   return TABELA[new_index];
 }
+
+char decifrar(char *pos, int offset) {
+  int index = (pos - TABELA);
+  int new_index = (index + 67 - offset) % 67;
+  return TABELA[new_index];
+}

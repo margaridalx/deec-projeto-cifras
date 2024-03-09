@@ -3,3 +3,4 @@
 
 void cifra_de_vigenere(char *texto, char *senha, char *cifra);
 char cifrar(char *pos, int offset);
+char decifrar(char *pos, int offset);
