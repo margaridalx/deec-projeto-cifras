@@ -11,4 +11,5 @@ int main(void) {
   fgets(texto, MAXLENGTH, stdin);
 
   cifra_de_vigenere(texto, DEFAULTPASSWORD, cifra);
+  printf(" O texto %s foi cifrado para: %s ", texto, cifra);
 }
