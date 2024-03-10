@@ -1,5 +1,5 @@
 .PHONY = all clean
-OBJECTS = main.o cifras.o
+OBJECTS = main.o cifras.o utils.o
 
 all: cifras
 
